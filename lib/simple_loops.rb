@@ -35,4 +35,5 @@ def return_string_array (array)
     converted.push(x.to_s)
   end
   
+  converted
 end 
