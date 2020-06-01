@@ -1,4 +1,3 @@
-require 'pry'
 
 def loop_message_five_times (string)
   
@@ -31,9 +30,9 @@ end
 
 def return_string_array (array) 
   
-  array.each do |x|
-  binding.pry
-   
+  counter = 0
+  while counter < array.length
+    array[counter].to_s   
   end 
   
   return array
