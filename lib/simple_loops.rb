@@ -31,7 +31,6 @@ end
 def return_string_array (array) 
   converted = []
 
-  array.each do {|x| converted.push(x.to_s
-  end 
+  array.each do {|x| converted.push(x.to_s)}
   
 end 
