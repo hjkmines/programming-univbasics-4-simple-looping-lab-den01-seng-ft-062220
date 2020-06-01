@@ -33,4 +33,6 @@ def return_string_array (array)
     x.to_s
   end 
   
+  return array
+  
 end 
